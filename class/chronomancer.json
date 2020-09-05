@@ -1,0 +1,1112 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Chronomancer",
+				"abbreviation": "CHRON",
+				"full": "Chronomancer",
+				"version": "1.0.0",
+				"url": "",
+				"authors": [
+					"Jordan",
+                    "Alex"
+				],
+				"convertedBy": [
+					"Alex"
+				]
+			}
+		],
+		"dateAdded": 1580934477,
+		"dateLastModified": 1585045164
+	},
+	"class": [
+		{
+			"name": "Chronomancer",
+			"source": "Chronomancer",
+			"fluff": [
+				{
+					"type": "section",
+					"name": "Chronomancer",
+					"entries": [
+                            "The High Elf whirls his quarterstaff through the air, his movements impossibly fast as he darts around the battlefield. A human woman lays her hand on her ally's wound as it begins to close before their very eyes. A halfling stands atop a podium, orchestrating the flow of time across the battlefield as his foes moevements start and stop eratically. These are all examples of chronomancers, those who are so in touch with the Aether they can manipulate time and space itself.",
+						{
+							"type": "entries",
+							"name": "Outside of the Arcane",
+							"entries": [
+								"Chronomancers exist outside of the weave, rather manipulating the Aether, the metaphysical glue which holds reality together. As a result of this, none of the chronomancers abilities or features are considered magical, but do overcome nonmagical resistances."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Swordmage",
+							"entries": [
+                                "Chronomancers are born either from a sorcerous awakening, however not of the weave, but of the Aether, or from years of study and meditation on the physical rules of reality. Regardless, when creating a chronomancer you should consider how they came to know about chronomancy, and how they became one themself."
+                            ]
+						}
+					]
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"wis",
+				"cha"
+			],
+			"spellcastingAbility": "wis",
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium"
+				],
+				"weapons": [
+					"simple",
+					"glaive",
+					"scimitar"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"investigation",
+								"insight",
+								"perception",
+								"persuasion"
+							],
+							"count": 3
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item light crossbow|phb} and {@item crossbow bolts (20)|phb|20 bolts} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+					"(a) a {@item scholar's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
+					"{@item Leather armor|phb}, any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, and two {@item dagger|phb|daggers}"
+				],
+				"goldAlternative": "{@dice 4d4×10|4d4 × 10|Starting Gold}"
+			},
+			"multiclassing": {
+				"requirements": {
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					]
+				}
+			},
+			"classTableGroups": [
+                {
+					"colLabels": [
+						"Rift Points"
+					],
+					"rows": [
+						[
+							8
+						],
+						[
+							10
+						],
+						[
+							12
+						],
+						[
+							14
+						],
+						[
+							20
+						],
+						[
+							22
+						],
+						[
+							24
+						],
+						[
+							30
+						],
+						[
+							32
+						],
+						[
+							34
+						],
+						[
+							36
+						],
+						[
+							38
+						],
+						[
+							40
+						],
+						[
+							42
+						],
+						[
+							44
+						],
+						[
+							46
+						],
+						[
+							52
+						],
+						[
+							54
+						],
+						[
+							56
+						],
+						[
+							66
+						]
+					]
+				}
+			],
+			"classFeatures": [
+                "Rift Points and Tears|Chronomancer|Chronomancer|1",
+                "Time Puncture|Chronomancer|Chronomancer|1",
+                "Linear Fusion|Chronomancer|Chronomancer|2",
+                {
+                    "classFeature": "Chronomancy Philosophy|Chronomancer|Chronomancer|3",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Chronomancer|Chronomancer|4",
+                "Reserve Time Puncture|Chronomancer|Chronomancer|5",
+                "Time slow|Chronomancer|Chronomancer|6",
+                {
+                    "classFeature": "Chronomantic Philosophy Feature|Chronomancer|Chronomancer|7",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Chronomancer|Chronomancer|8",
+                "Aethereal Recovery|Chronomancer|Chronomancer|9",
+                "Aethereal Ascendance|Chronomancer|Chronomancer|10",
+                {
+                    "classFeature": "Chronomantic Philosophy Feature|Chronomancer|Chronomancer|11",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Chronomancer|Chronomancer|12",
+                "Aethereal Flood|Chronomancer|Chronomancer|13",
+                {
+                    "classFeature": "Chronomantic Philosophy Feature|Chronomancer|Chronomancer|15",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Chronomancer|Chronomancer|16",
+                "Time Warp|Chronomancer|Chronomancer|17",
+                {
+                    "classFeature": "Chronomantic Philosophy Feature|Chronomancer|Chronomancer|18",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Chronomancer|Chronomancer|19",
+                "Master of the Epoch|Chronomancer|Chronomancer|20"
+            ],
+			"subclassTitle": "Chronomancy Philosophy",
+			"subclasses": [
+				{
+					"name": "Regression",
+					"source": "Chronomancer",
+					"shortName": "Regression",
+					"subclassFeatures": [
+						"Regression|Chronomancer|Chronomancer|Regression|Chronomancer|3",
+						"Timeline Shift|Chronomancer|Chronomancer|Regression|Chronomancer|7",
+						"Chronoretraction|Chronomancer|Chronomancer|Regression|Chronomancer|11",
+                        "Aethereal reshuffle|Chronomancer|Chronomancer|Regression|Chronomancer|15",
+                        "Chronogauntlet|Chronomancer|Chronomancer|Regression|Chronomancer|18"
+					]
+				},
+				{
+					"name": "Progression",
+					"source": "Chronomancer",
+					"shortName": "Progression",
+					"subclassFeatures": [
+						"Progression|Chronomancer|Chronomancer|Progression|Chronomancer|3",
+						"Eon Runner|Chronomancer|Chronomancer|Progression|Chronomancer|7",
+						"Meridian Shift|Chronomancer|Chronomancer|Progression|Chronomancer|11",
+                        "Stimulated Chronometry|Chronomancer|Chronomancer|Progression|Chronomancer|15",
+                        "Sands of Time|Chronomancer|Chronomancer|Progression|Chronomancer|18"
+					]
+				},
+				{
+					"name": "Stagnation",
+					"source": "Chronomancer",
+					"shortName": "Stagnation",
+					"subclassFeatures": [
+						"Stagnation|Chronomancer|Chronomancer|Stagnation|Chronomancer|3",
+						"Controlled Stagnation|Chronomancer|Chronomancer|Stagnation|Chronomancer|7",
+						"Defensive Freeze|Chronomancer|Chronomancer|Stagnation|Chronomancer|11",
+                        "Delayed effect|Chronomancer|Chronomancer|Stagnation|Chronomancer|15",
+                        "Master of Time|Chronomancer|Chronomancer|Stagnation|Chronomancer|18"
+					]
+				}
+			],
+			"classSpells": [
+			]
+		}
+	],
+	"classFeature": [
+        {
+            "name": "Rift Points and Tears",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 1,
+            "entries": [
+                    "Starting at level 1 your burgeoning knowledge of the Aether manifests itself physically on your body. These manifestations present themselves as glowing lines of energy which weave across your form. You have a number of these lines equal to the number of rift points you have, as shown in your class table. Each time you spend a rift point, one of these lines dims to nothing. The color of these lines is determined by your Chronomancy Philosophy, without a philosophy they are white.",
+                    "Chronomancy abilites require you to spend rifts points in order to be used, however when you spend rift points you must make a tear roll on a d20, you succeed on a tear roll if you roll an amount greater than 5 + the number of rift points spent - your chronomancer level. If you fail a tear roll, you take damage as indicated by the tear damage table. You roll a tear check after you have used the assosiated ability. You gain back all expended rift points at the end of a long rest.",
+                    {
+                        "type": "abilityDc",
+                        "name": "Chronomancer",
+                        "attributes": [
+                            "wis"
+                        ]
+                    },
+                    {
+                        "type": "abilityAttackMod",
+                        "name": "Chronomancer",
+                        "attributes": [
+                            "wis"
+                        ]
+                    },
+                    {
+                    "type": "table",
+                    "caption": "Tear Damage",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Damage Taken"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1-5",
+                            "[[/r 1d6 #Force damage from rift tear]] Force Damage"
+                        ],
+                        [
+                            "6-9",
+                            "[[/r 1d12 #Force damage from rift tear]] Force Damage"
+                        ],
+                        [
+                            "10-19",
+                            "[[/r 2d12 #Force damage from rift tear]] Force Damage"
+                        ],
+                        [
+                            "20-29",
+                            "[[/r 4d12 #Force damage from rift tear]] Force Damage"
+                        ],
+                        [
+                            "30+",
+                            "[[/r 6d12 #Force damage from rift tear]] Force Damage"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Time Puncture",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 1,
+            "entries": [
+                "At 1st level you gain the ability to launch pockets of warped aether at your foes to damage them. You may cause a time puncture as an action on your turn, it is an attack with a range of 60 feet which uses your wisdom modifier.",
+                {
+                    "type": "table",
+                    "caption": "Time Puncture Damage",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Damage Dealt"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "[[/r 1d6 + @abilities.wis.mod #Force damage from time puncture]] Force Damage"
+                        ],
+                        [
+                            "3",
+                            "[[/r 2d6 + @abilities.wis.mod #Force damage from time puncture]] Force Damage"
+                        ],
+                        [
+                            "6",
+                            "[[/r 4d6 + @abilities.wis.mod #Force damage from time puncture]] Force Damage"
+                        ],
+                        [
+                            "12",
+                            "[[/r 10d6 + @abilities.wis.mod #Force damage from time puncture]] Force Damage"
+                        ],
+                        [
+                            "18",
+                            "[[/r 12d6 + @abilities.wis.mod #Force damage from time puncture]] Force Damage"
+                        ],
+                        [
+                            "30",
+                            "[[/r 18d6 + @abilities.wis.mod #Force damage from time puncture]] Force Damage"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Linear Fusion",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 2,
+            "entries": [
+                "Starting at second level, you gain the ability to perform linear fusion when you use your chronomancer abilites. Linear fusion allows you to use any chronomancy ability that consumes rift points as a bonus action, but you suffer a garunteed tear."
+            ]
+        },
+        {
+            "name": "Chronomancy Philosophy",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 3,
+            "entries": [
+                "At 3rd level you choose your chronomancy philosophy. The philosophy you choose defines your style of chronomancy and your capabilities as a time manipulator. The Philosophies of chronomancy include progression, regression, and stagnation. You gain new features for your philosophy at levels 7, 11, 15 and 17."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 4,
+            "entries": [
+                "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Reserve Time Puncture",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 5,
+            "entries": [
+                "As you gain power in the Aether, you develop a small reserve or rift points which can be accessed at any time. Starting at 5th level you can make a time puncture which costs no rift points as your action. Your reserve time puncture does {@dice 1d6} + wisdom modifer force damage. The damage of your reserve time puncture increases to 2d6 at level 11, and 3d6 at level 17."
+            ]
+        },
+        {
+            "name": "Time slow",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 6,
+            "entries": [
+            "At 6th level you gain the ability to use your action to cause a portion of space you can see within 60 feet of you to experience time at a slower rate. An amount of creatures equal to your wisdom modifier can be immune to your time slow for as long as it is active, you are always immune to your own time slow. Time slow lasts for 1 minute.",
+            "While within an area of time slow, objects and creatures fall at 10 feet per round and do not suffer fall damage. Additionally, creatures in the time slow count as being in difficult terrain, and have disadvantage on dexterity saving throws. You may have up to two time slows active at a time.",
+            {
+                "type": "table",
+                "caption": "Time Slow",
+                "colLabels": [
+                    "Expended Rift Points",
+                    "Time Slow Effect"
+                ],
+                "colStyles": [
+                    "col-1 text-center",
+                    "col-11"
+                ],
+                "rows": [
+                    [
+                        "3",
+                        "25 foot cube, lasts until the start of your next turn."
+                    ],
+                    [
+                        "8",
+                        "50 foot cube, lasts until the start of your next turn."
+                    ],
+                    [
+                        "12",
+                        "25 foot cube, lasts for one minute."
+                    ],
+                    [
+                        "16",
+                        "50 foot cube, lasts for one minute."
+                    ]
+                ]
+            }
+            ]
+        },
+        {
+            "name": "Chronomantic Philosophy Feature",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 7,
+            "entries": [
+                "At 7th level you gain an additional Chronomantic Philosophy Feature. You gain new features for your philosophy at levels 7, 11, 15 and 17."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 8,
+            "entries": [
+                "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Aethereal Recovery",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 9,
+            "entries": [
+                "Starting at 9th level, your connection to the Aether becomes so strong that you can recover your rift points quicker. Whenever you finish a short rest, you gain a number of rift points equal to your chronomancer level + your wisdom modifier. You may only use this feature once per long rest."
+            ]
+        },
+        {
+            "name": "Aethereal Ascendance",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 10,
+            "entries": [
+                "At 10th level you gain the ability to use your action in order to manipulate space around you, causing you to take flight. Your flying speed, as well as the duration of your Aethereal ascendance is decided according to the number of rift points spent when this ability is used.",
+                {
+                    "type": "table",
+                    "caption": "Aethereal Ascendance",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "2",
+                            "30 foot flying speed until the start of your next turn."
+                        ],
+                        [
+                            "4",
+                            "60 foot flying speed until the start of your next turn."
+                        ],
+                        [
+                            "10",
+                            "30 foot flying speed for 1 minute."
+                        ],
+                        [
+                            "14",
+                            "60 foot flying speed for 1 minute."
+                        ],
+                        [
+                            "22",
+                            "60 foot flying speed until the end of your next long rest."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chronomantic Philosophy Feature",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 11,
+            "entries": [
+                "At 11th level you gain an additional Chronomantic Philosophy Feature. You gain new features for your philosophy at levels 7, 11, 15 and 17."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 12,
+            "entries": [
+                "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Aethereal Flood",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 13,
+            "entries": [
+                "Beginning at 13th level, each time you cause a tear it opens a flood of aethereal energy which washes over you, empowering you almost as much as it damages you. Whenever you take tear damage, you gain 2 rift points for every 5 damage you take."
+            ]
+        },
+        {
+            "name": "Chronomantic Philosophy Feature",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 15,
+            "entries": [
+                "At 15th level you gain an additional Chronomantic Philosophy Feature. You gain new features for your philosophy at levels 7, 11, 15 and 17."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 16,
+            "entries": [
+                "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Time Warp",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 17,
+            "entries": [
+                "At 17th level your power over the Aether gives you the ability to cause time itself to collapse in an area. As an action you may choose any point within 60 feet of you, that area suffers a time warp, the size and effects of the time warp are determined by how many rift points are spent on it. Creatures in the time warps area must make a charisma save against your chronomancer DC, taking full damage and all effects if they fail, or just half the damage on a success.",
+                "You, and an amount of creatures equal to your widsom modifier can be immune to your time warp.",
+                {
+                    "type": "table",
+                    "caption": "Time Warp",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "16",
+                            "30 foot cube, creatures in the time warps area take @dice 5d10} force damage and suffer one level of exhaustion."
+                        ],
+                        [
+                            "24",
+                            "40 foot cube, creatures in the time warps area take {@dice 10d10} force damage, suffer one level of exhaustion, and age {@dice 2d10} years."
+                        ],
+                        [
+                            "34",
+                            "50 foot cube, creatures in the time warps area take {@dice 15d10} force damage, suffer two levels of exhaustion, and age {@dice 2d10} years."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chronomantic Philosophy Feature",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 18,
+            "entries": [
+                "At 18th level you gain an additional Chronomantic Philosophy Feature. You gain new features for your philosophy at levels 7, 11, 15 and 17."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 19,
+            "entries": [
+                "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+                "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            ]
+        },
+        {
+            "name": "Master of the Epoch",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"level": 20,
+            "entries": [
+                "At 20th level you have achieved absolute mastery over the Aether. You have precise control of time and space around you, and can even use tears in the fabric of reality to empower yourself.",
+                "When you gain this feature you stop ageing, and cannot be aged by magical means. You cannot die of old age.",
+                "Additionally, when you are reduced to 0 hitpoints by taking tear damage you heal to your full hitpoints and receive 20 rift points. Whenever you heal in this way you may choose up to 10 creatures within 30 feet of you. Each of these creatures ages by {@dice 2d10} years. You may use this feature three times per long rest."
+            ]
+        }
+	],
+	"subclassFeature": [
+		{
+			"name": "Progression",
+			"source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Progression",
+			"subclassSource": "Chronomancer",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The philosophy of progression is based on speeding up, or skipping forward in time. Progression chronomancers are often agressive and proactive combatants, speeding themselves and their allies up, and ageing their enemies to dust. Progression chronomancers have blue rifts with fast moving white particles flowing through them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Accelerate|Chronomancer|Chronomancer|Progression|Chronomancer|3"
+				}
+			]
+        },
+        {
+            "name": "Accelerate",
+			"source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Progression",
+			"subclassSource": "Chronomancer",
+			"level": 3,
+			"header": 2,
+            "entries": [
+                "Starting at 3rd level when you choose this philosophy, you gain the ability to accelerate time for objects and creatures, ageing them.",
+                "You may touch any nonmagical object up to 5 feet feet on each side and age it by an amount of years equal to twice your chronomancer level, you must spend 1 rift point for each 5 years you age the object. You may also age an object by any amount of time less than a year for 1 rift point.",
+                "Additionally you may use your accelerate as an offensive ability in combat. As your action you can make a single melee attack against a creature within 5 feet of you using your widsom modifier. Targets hit by your accelerate must make a charisma saving throw against your chronomancer DC, if they fail they take all accelerate effects, if they succeed they only take half damage.",
+                {
+                    "type": "table",
+                    "caption": "Accelerate",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "6",
+                            "Creature takes {@dice 5d6} necrotic damage and his its maximum hitpoints reduced by that amount, and ages {@dice 1d6+2} years."
+                        ],
+                        [
+                            "12",
+                            "Creature takes {@dice 8d6} necrotic damage and has its maximum hitpoints reduced by that amount, has vulnerability to all damage until the start of your next turn or until it next takes damage, and ages {@dice 1d10+8} years."
+                        ],
+                        [
+                            "20",
+                            "Creature takes {@dice 10d6} necrotic damage and has its maximum hitpoints rediced by that amount, has vulnerability to all damage until the start of your next turn or until it next takes damage, has disadvantage on all saving throws until the start of your next turn and ages {@dice 3d10+15} years."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eon Runner",
+			"source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Progression",
+			"subclassSource": "Chronomancer",
+			"level": 7,
+			"header": 2,
+            "entries": [
+                "At 7th level you gain the ability to use your bonus action to cause a creature within 30 feet of you to experience time faster, granting them several benefits based on how many rift points you choose to spend. Regardless of rift points spent, a creature affected by eon runner gains multiattack if they do not already have it, and can choose to use your wisdom modifier for attack and damage rolls on melee attacks made during its duration. This ability costs half as many rift points to use on yourself, but still risks a tear as if you spent the entire amount.",
+                {
+                    "type": "table",
+                    "caption": "Eon Runner",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "4",
+                            "Creature gains an extra 10 feet to its movement speed, does not provoke opportunity attacks, and has advantage on dexterity saving throws until the end of its next turn."
+                        ],
+                        [
+                            "8",
+                            "Creature gains an extra 20 feet to its movement speed, does not provoke opportunity attacks, and has advantage on dexterity saving throws until the end of its next turn."
+                        ],
+                        [
+                            "12",
+                            "Creature gains an extra 10 feet to its movement speed, does not provoke opportunity attacks, and has advantage on dexterity saving throws for 1 minute."
+                        ],
+                        [
+                            "16",
+                            "Creature gains an extra 20 feet to its movement speed, does not provoke opportunity attacks, and has advantage on dexterity saving throws for 1 minute."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Meridian Shift",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Progression",
+			"subclassSource": "Chronomancer",
+			"level": 11,
+			"header": 2,
+            "entries": [
+                "At 11th level your precise control of time acceleration makes it possible for you or your allies to act impossibly fast. You may use your reaction to allow a creature to make extra weapon attacks on their turn. You may use this reaction after a creature you can see within 30 feet of you has finished their attack action. The amount of rift points you spend on your meridian shift determines how many extra attacks a creature gets. This ability costs half as many rift points to use on yourself, but still risks a tear as if you spent the entire amount.",
+                {
+                    "type": "table",
+                    "caption": "Eon Runner",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "6",
+                            "One extra attack."
+                        ],
+                        [
+                            "12",
+                            "Two extra attacks."
+                        ],
+                        [
+                            "16",
+                            "Three extra attacks."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stimulated Chronometry",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Progression",
+            "subclassSource": "Chronomancer",
+			"level": 15,
+			"header": 2,
+            "entries": [
+                "At 15th level you gain vitality from the advancement of time. Whenever you age a creature, you heal for 2 hitpoints for every year it was aged .",
+                "Additionaly at 15th level you gain the ability to cast significantly increase the speed at which a target perceives time, as an action on your turn you may target a number of creatures as determined by how many rift points you spend, and grant them extra mobility as per the haste spell.",
+                {
+                    "type": "table",
+                    "caption": "Eon Runner",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "8",
+                            "One Target."
+                        ],
+                        [
+                            "14",
+                            "Two Targets."
+                        ],
+                        [
+                            "20",
+                            "Three Targets."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sands of Time",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Progression",
+            "subclassSource": "Chronomancer",
+			"level": 18,
+			"header": 2,
+            "entries": [
+                "At 18th level your control over the progression of time is as commanding as it is terrifying. Once per long rest, you may use your action to spend 20 rift points to force progression onto a creature within 60 feet of you. That creature must make a charisma save against your chronomancer DC or take {@dice 20d10} necrotic damage and double in age. If they succeed on the saving throw they only take half damage and do not age. If ageing the creature causes it to become older than its species maximum age, it instantly dies, ageing to dust, and can not be brought back short of a wish spell."
+            ]
+        },
+        {
+            "name": "Regression",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Regression",
+            "subclassSource": "Chronomancer",
+			"level": 3,
+			"header": 1,
+            "entries": [
+                "The philosophy of regression is all about reversing time, winding back the clock to allow for a different outcome. Regression chronomancers are often cautious and tactical combatants who use their abilities to sway the outcome of battle. Regression chronomancers have purple rifts with slowly flowing white particles in them.",
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rewind|Chronomancer|Chronomancer|Regression|Chronomancer|3"
+				}
+            ]
+        },
+        {
+            "name": "Rewind",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Regression",
+            "subclassSource": "Chronomancer",
+			"level": 3,
+			"header": 2,
+            "entries": [
+                "Starting at 3rd level when you choose this philosophy, you gain the ability to use your action to rewind time for objects and creatures.",
+                "You may target an area as large as 5 feet on each side and use your action to rewind time by an amount of minutes equal to your chronomancer level for nonmagical objects in that area which aren't being worn or carried. This ability costs you 2 rift points per minute you rewind time, or 1 rift point for amounts less than a minute.",
+                "Additionally you gain the ability to rewind a creatures movement. As a reaction, when a creature within 60 feet of you stops moving you may spend 4 rift points to force them to make a charisma save against your chronomancer DC. On a fail, the creature returns to where they started their movement, having consumed that much speed, on a success your rewind fails and the creature suffers no additional effects."
+            ]
+        },
+        {
+            "name": "Timeline shift",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Regression",
+            "subclassSource": "Chronomancer",
+			"level": 7,
+			"header": 2,
+            "entries": [
+                "At 7th level you gain a special reaction which can be used on each turn except your own to rewind time on a dime when certain conditions are met. You may use this reaction to spend rift points in order to cause certain rerolls when the roll is made within 60 feet of you.",
+                {
+                    "type": "table",
+                    "caption": "Timeline shift",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "4",
+                            "Reroll attack roll or ability check."
+                        ],
+                        [
+                            "6",
+                            "Reroll saving throw."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Chronoretraction",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Regression",
+            "subclassSource": "Chronomancer",
+			"level": 11,
+			"header": 2,
+            "entries": [
+                "At 11th level you can allow creatures to swim against the tide of the Aether. You can now use your action to spend 10 rift points to reverse the actual age of a willing creature you touch by 1d4 years to a minimum of 13 years. Each time you use chronoretraction in this way, you must make a tear roll as if you just spent 25 rift points. You cannot benefit from aethereal flood when using this feature in this way.",
+                "Additionally you can use chronoretraction to heal a creatures wounds as an action. When you do this you must touch a willing creature, you then heal them by an amount decided by how many rift points you spend. You may use chronoretraction in this way an amount of times equal to your wisdom modifier per long rest.",
+                {
+                    "type": "table",
+                    "caption": "Chronoretraction",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "4",
+                            "{@dice 2d8} points of healing."
+                        ],
+                        [
+                            "8",
+                            "{@dice 5d8} points of healing."
+                        ],
+                        [
+                            "16",
+                            "{@dice 12d8} points of healing."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aethereal reshuffle",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Regression",
+            "subclassSource": "Chronomancer",
+			"level": 15,
+			"header": 2,
+            "entries": [
+                "Starting at 15th level you gain the ability to shuffle through timelines until you find one which suits you best in the moment. Whenever initiative is rolled, you may swap up to 4 of the rolls between different creatures."
+            ]
+        },
+        {
+            "name": "Chronogauntlet",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Regression",
+            "subclassSource": "Chronomancer",
+			"level": 18,
+			"header": 2,
+            "entries": [
+                "At 18th level your ability as a regression chronomancer is almost unmatched. You can cause a creature to repeat history, experiencing its effects twice. When a creature within 60 feet of you takes damage from a spell or attack action, you may use your reaction to expend 20 rift points to double the damage dealt by the spell or attack against that creature."
+            ]
+        },
+        {
+            "name": "Stagnation",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Stagnation",
+            "subclassSource": "Chronomancer",
+			"level": 3,
+			"header": 1,
+            "entries": [
+                "The philosophy of stagnation revolves around the stopping of time, or delaying its flow. Stagnation chronomancers are infamously hard to pin down, as they blink around the battlefield, and set up devestating chains of effect. Stagnation chronomancers have pale yellow rifts.",
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Time nib|Chronomancer|Chronomancer|Stagnation|Chronomancer|3"
+				}
+            ]
+        },
+        {
+            "name": "Time nib",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Stagnation",
+            "subclassSource": "Chronomancer",
+			"level": 3,
+			"header": 2,
+            "entries": [
+                "Starting at 3rd level when you choose this philosophy, you can use your bonus action to cause nibs in the flow of time, stopping it for momentary periods, allowing you to effectively teleport short distances depending on how many rift points you spend. You cannot use time nib if your move speed is 0.",
+                {
+                    "type": "table",
+                    "caption": "Accelerate",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "5 feet teleportation"
+                        ],
+                        [
+                            "2",
+                            "10 feet teleportation"
+                        ],
+                        [
+                            "6",
+                            "30 feet teleportation"
+                        ],
+                        [
+                            "12",
+                            "60 feet teleportation"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Controlled Stagnation",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Stagnation",
+            "subclassSource": "Chronomancer",
+			"level": 7,
+			"header": 2,
+            "entries": [
+                "At 7th level you gain the ability to precisely control your time stoppages. You may spend 4 rift points on order to stop any large or smaller object currently in motion, including missles, as a reaction when you see them moving within 60 feet of you.",
+                "If you use controlled stagnation on a spell projectile, controlled stagnation costs an extra 4 rift points, and the caster must make a save using their spellcasting ability against your chronomancer DC, if they succeed, your controlled stagnation fails and your rift points are wasted.",
+                "Finally, you can use controlled stagnation to freeze time for a creature. You may use your action to spend 12 rift points to freeze a creature as per the hold monster spell. You may target multiple creatures with this ability, doubling the rift cost for each extra creature."
+            ]
+        },
+        {
+            "name": "Defensive Freeze",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Stagnation",
+            "subclassSource": "Chronomancer",
+			"level": 11,
+			"header": 2,
+            "entries": [
+                "At 11th level you unlock the ability to freeze creatures for a moment when they intend to attack. When a creature within 60 feet of you is hit with a melee attack, you can use your reaction to spend rift points to grant them a bonus to their AC against that one attack, as the attacker is frozen a moment before the hit.",
+                "Additionally, at level 11 you gain a special reaction which can be used every turn except yours, this special reaction can only be used for controlled stagnation, defensive freeze, and delayed effect, provided you have these abilities.",
+                {
+                    "type": "table",
+                    "caption": "Defensive Freeze",
+                    "colLabels": [
+                        "Expended Rift Points",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "4",
+                            "+2 to Armour Class."
+                        ],
+                        [
+                            "8",
+                            "+5 to Armour Class."
+                        ],
+                        [
+                            "20",
+                            "+10 to Armour Class."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Delayed effect",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Stagnation",
+            "subclassSource": "Chronomancer",
+			"level": 15,
+			"header": 2,
+            "entries": [
+                "At 15th level you gain the ability to delay time itself according to your whims. Whenever a creature within 60 feet of you takes damage, you can use your reaction to spend an amount of rift points equal to half the damage dealt in order to delay the damage by one round. If the source of the damage is incapacitated or destroyed by the time the damage would be dealt, the creature takes no damage."
+            ]
+        },
+        {
+            "name": "Master of Time",
+            "source": "Chronomancer",
+			"className": "Chronomancer",
+			"classSource": "Chronomancer",
+			"subclassShortName": "Stagnation",
+            "subclassSource": "Chronomancer",
+			"level": 18,
+			"header": 2,
+            "entries": [
+                "At 18th level the flow of time itself bows to your every whim. You gain the ability to spend 20 rift points in order to stop time as per the time stop spell."
+            ]
+        }
+
+	]
+}
