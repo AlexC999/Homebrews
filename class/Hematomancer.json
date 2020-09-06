@@ -1,0 +1,1188 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HematomancerClass",
+				"abbreviation": "HEMA",
+				"full": "Hematomancer",
+				"version": "1.0.0",
+				"url": "",
+				"authors": [
+					"Alex"
+				],
+				"convertedBy": [
+					"Alex"
+				]
+			}
+		],
+		"dateAdded": 1580934477,
+		"dateLastModified": 1585045164
+	},
+	"class": [
+		{
+			"name": "Hematomancer",
+			"source": "HematomancerClass",
+			"fluff": [
+				{
+					"type": "entries",
+					"name": "Hematomancer",
+					"entries": [
+						"An elf did something with blood, other people did other stuff too. There was a bunch of flavour text for this class and it was really quite amazing and full of lovely imagery and prose and everyone agreed it wasn't just some run-on sentence that was used as a filler.",
+						{
+							"type": "entries",
+							"name": "Dark Powers",
+							"entries": [
+								"While the practice of Hematomancy in itself is not necessarily evil it is usually seen as such and most of its practitioners hide themselves and their abilities from the public eye."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ancient Magic",
+							"entries": [
+								"Hematomancy is said to be one of the most ancient and primal magics, perhaps as old as life itself. Also some more stuff about how Hematomancy came about or whatever."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating a Hematomancer",
+							"entries": [
+								"What do you need to think about to create a Hematomancer? Flesh out some more later but how did they learn their abilities? What do they think of them?"
+							]
+						}
+					]
+				}
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"con",
+				"cha"
+			],
+			"spellcastingAbility": "cha",
+			"startingProficiencies": {
+				"armor": [
+					"light"
+				],
+				"weapons": [
+					"simple"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"arcana",
+								"deception",
+								"history",
+								"investigation",
+								"insight",
+								"perception",
+								"persuasion",
+								"religion",
+								"stealth"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item component's pouch|phb} or (b) a {@item arcane focus|phb}",
+					"(a) a {@item quarterstaff|phb} or (b) two {@item dagger|phb}",
+					"{@item leather armor|phb}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4×10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"component's pouch|phb"
+						],
+						"b": [
+							"arcane focus|phb"
+						]
+					},
+					{
+						"a": [
+							"quarterstaff|phb"
+						],
+						"b": [
+                            {
+							    "item":"dagger|phb",
+                                "count": 2
+                            }
+						]
+					},
+					{
+						"_": [
+                            {
+                                "item":"leather armor|phb"
+                            }
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"cha": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Spells Known"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							12
+						],
+						[
+							13
+						],
+						[
+							13
+						],
+						[
+							14
+						],
+						[
+							14
+						],
+						[
+							15
+						],
+						[
+							15
+						]
+					]
+				},
+				{
+					"colLabels": [
+                        "Spell level"
+					],
+					"rows": [
+						[
+							"{@filter 1st|spells|level=1|class=Warlock}"
+						],
+						[
+							"{@filter 1st|spells|level=1|class=Warlock}"
+						],
+						[
+							"{@filter 2nd|spells|level=2|class=Warlock}"
+						],
+						[
+							"{@filter 2nd|spells|level=2|class=Warlock}"
+						],
+						[
+							"{@filter 3rd|spells|level=3|class=Warlock}"
+						],
+						[
+							"{@filter 3rd|spells|level=3|class=Warlock}"
+						],
+						[
+							"{@filter 4th|spells|level=4|class=Warlock}"
+						],
+						[
+							"{@filter 4th|spells|level=4|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						],
+						[
+							"{@filter 5th|spells|level=5|class=Warlock}"
+						]
+					]
+                },
+                {
+					"colLabels": [
+						"Hematomantic Investitures"
+					],
+					"rows": [
+						[
+							1
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							7
+						],
+						[
+							7
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Hematomantic Investiture|Hematomancer|HematomancerClass|1",
+				"Spellcasting|Hematomancer|HematomancerClass|1",
+				"Read Life|Hematomancer|HematomancerClass|2",
+				{
+					"classFeature": "Hematomantic Discipline|Hematomancer|HematomancerClass|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Hematomancer|HematomancerClass|4",
+				"Expanded Bloodlines|Hematomancer|HematomancerClass|5",
+				"Applied Studies|Hematomancer|HematomancerClass|6",
+				{
+					"classFeature": "Hematomantic Discipline Feature|Hematomancer|HematomancerClass|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Hematomancer|HematomancerClass|8",
+				{
+					"classFeature": "Hematomantic Discipline Feature|Hematomancer|HematomancerClass|10",
+					"gainSubclassFeature": true
+                },
+                "Expanded Bloodlines|Hematomancer|HematomancerClass|11",
+				"Ability Score Improvement|Hematomancer|HematomancerClass|12",
+				{
+					"classFeature": "Hematomantic Discipline Feature|Hematomancer|HematomancerClass|13",
+					"gainSubclassFeature": true
+                },
+                "Bloodhound|Hematomancer|HematomancerClass|15",
+				"Ability Score Improvement|Hematomancer|HematomancerClass|16",
+                "Expanded Bloodlines|Hematomancer|HematomancerClass|17",
+                {
+					"classFeature": "Hematomantic Discipline Feature|Hematomancer|HematomancerClass|18",
+					"gainSubclassFeature": true
+                },
+				"Ability Score Improvement|Hematomancer|HematomancerClass|19",
+				"Ruler of Vitality|Hematomancer|HematomancerClass|20"
+			],
+			"subclassTitle": "Hematomantic Discipline",
+			"subclasses": [
+				{
+					"name": "Adaptist",
+					"source": "HematomancerClass",
+					"shortName": "Adaptist",
+					"subclassFeatures": [
+						"Adaptist|Hematomancer|HematomancerClass|Adaptist|HematomancerClass|3",
+                        "Innate adaptions|Hematomancer|HematomancerClass|Adaptist|HematomancerClass|7",
+                        "Additional adaptations|Hematomancer|HematomancerClass|Adaptist|HematomancerClass|10",
+						"Improved Innate adaptions|Hematomancer|HematomancerClass|Adaptist|HematomancerClass|13",
+						"Instant Assimilation|Hematomancer|HematomancerClass|Adaptist|HematomancerClass|18"
+					]
+				},
+				{
+					"name": "Arcane Assimilator",
+					"source": "HematomancerClass",
+					"shortName": "Assimilator",
+					"subclassFeatures": [
+						"Assimilator|Hematomancer|HematomancerClass|Assimilator|HematomancerClass|3",
+                        "Enhanced Arcana|Hematomancer|HematomancerClass|Assimilator|HematomancerClass|7",
+                        "Magical Enhancements|Hematomancer|HematomancerClass|Assimilator|HematomancerClass|10",
+						"Advanced Teachings|Hematomancer|HematomancerClass|Assimilator|HematomancerClass|13",
+						"Prodigal Caster|Hematomancer|HematomancerClass|Assimilator|HematomancerClass|18"
+					]
+				},
+				{
+					"name": "Hematurge",
+					"source": "HematomancerClass",
+					"shortName": "Hematurge",
+					"subclassFeatures": [
+						"Hematurge|Hematomancer|HematomancerClass|Hematurge|HematomancerClass|3",
+                        "Forced Vitality|Hematomancer|HematomancerClass|Hematurge|HematomancerClass|7",
+                        "Blood Servant|Hematomancer|HematomancerClass|Hematurge|HematomancerClass|10",
+						"Bloodline Supremacy|Hematomancer|HematomancerClass|Hematurge|HematomancerClass|13",
+						"Harvest Life|Hematomancer|HematomancerClass|Hematurge|HematomancerClass|18"
+					]
+				}
+			],
+			"classSpells": [
+				{
+					"name": "Absorb elements",
+					"source": "XGE"
+				},
+				"Burning Hands",
+				"Chromatic Orb",
+				"Detect Magic",
+				"Expeditious Retreat",
+				"Faerie Fire",
+				"False Life",
+				"Feather Fall",
+				"Fog Cloud",
+				"Ice Knife",
+				"Identify",
+				"Jump",
+				"Magic Missile",
+				"Protection from evil and good",
+				"Ray of Sickness",
+				"Shield",
+				"Sleep",
+				"Thunderwave",
+				"Witch Bolt",
+				{
+					"name": "Zephyr Strike",
+					"source": "XGE"
+				},
+				{
+					"name": "Aganazzar's scorcher",
+					"source": "XGE"
+				},
+				"Blindness/Deafness",
+				"Blur",
+				"Darkness",
+				"Darkvision",
+				"Enlarge/reduce",
+				"Hold person",
+				"Invisibility",
+				"Levitate",
+				"Locate Object",
+				"Magic Weapon",
+				"Melf's Acid Arrow",
+				"Mirror Image",
+				"Misty Step",
+				"Nystul's magic aura",
+				"Scorching Ray",
+				"Shatter",
+				{
+					"name": "Snilloc's snowball swarm",
+					"source": "XGE"
+				},
+				"Spider climb",
+				"Counterspell",
+				"Dispel Magic",
+				"Fear",
+				"Fireball",
+				{
+					"name": "Flame Arrows",
+					"source": "XGE"
+				},
+				"Glyph of Warding",
+				"Haste",
+				"Lightning Bolt",
+				"Magic Circle",
+				{
+					"name": "Melf's minute meteors",
+					"source": "XGE"
+				},
+				"Protection from energy",
+				"Sleet storm",
+				"slow",
+				"Stinking cloud",
+				"Vampiric touch",
+				"Blight",
+				"Confusion",
+				"Dimension Door",
+				{
+					"name": "Elemental Bane",
+					"source": "XGE"
+				},
+				"Fire Shield",
+				"Freedom of movement",
+				"Greater Invisibility",
+				"Ice Storm",
+				"Locate Creature",
+				"Stoneskin",
+				{
+					"name": "Vitriolic sphere",
+					"source": "XGE"
+				},
+				"Animate Objects",
+				"Cloudkill",
+				"Cone of Cold",
+				"Conjure Volley",
+				{
+					"name": "Immolation",
+					"source": "XGE"
+				},
+				{
+					"name": "Skill empowerment",
+					"source": "XGE"
+				},
+				{
+					"name": "Steel wind strike",
+					"source": "XGE"
+				},
+				"Telekinesis",
+				"Teleportation circle"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Hematomantic Investiture",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 1,
+			"entries": [
+                "At first level, you have been initiated into the arts of Hematomancy. You gain a Hematomantic Investiture which you have obtained by absorbing some of the life from another creature through ancient rituals. Choose one of the following features",
+                {
+                    "type": "options",
+                    "entries": [
+                        {
+							"type": "entries",
+							"name": "Night",
+							"entries": [
+                                "You have absorbed some of a nocturnal or subteranean creatuers abilities. You gain Darkvision to a distance of 120 feet. Choosing this ability a second time grants you the ability to see normally in magical and nonmagical darkness as though it were bright light to a distance of 120 feet."
+							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Sturdy",
+							"entries": [
+                                "You have absorbed some of another creatures hearty vitality, your hit dice increase to a d10 and you gain 1 additional hitpoint for each Hematomancer level you have when you gain this ability. Choosing this ability again increases it to a d12 and provides an additional hitpoint per Hematomancer level."
+							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Aquatic",
+							"entries": [
+                                "You have absorbed an aquatic creatures ability to survive in underwater environments. You gain a swim speed equal to your walking speed and are able to breathe underwater."
+							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Adhesive",
+							"entries": [
+                                "You have absorbed a climbing creatures ability to scale vertical surfaces. You gain a climb speed equal to your walking speed in addition to the Spider Climb feature."
+							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Weapon Specialization",
+							"entries": [
+                                "You have gained a slain warriors understanding of their weapons, you gain proficiency in one weapon of your choice."
+							]
+						}
+                    ]
+                },
+                "You gain additional Hematomantic Investitures as you level up as shown in the Hematomancer class table, and unlock new options at 5th, 11th and 17th level."								
+            ]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 1,
+			"entries": [
+				"Your time spent learning the intricacies of magic allows you to create greater effects beyond the form of your weapon, giving you the ability to cast spells at 2nd level.",
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Hematomancer table shows what the highest level of spell you can cast is. You lack any spell slots that other spellcasters use, instead relying upon casting spells Hematomantically as shown in the Hematomantic casting feature."
+					]
+                },
+                {
+					"type": "entries",
+					"name": "Hematomantic Casting",
+					"entries": [
+                        "Beginning at 1st level you learn the secrets of blood magic also called Hematomancy. You can use the power of blood to supplement your usual spellcasting, by expending any number of hit die as a bonus action, the next time you cast a spell you may cast a spell of a level equal to the number of hit die expended (To a maximum of level 5) without expending a spellslot. When the spell is cast, roll the expended die and subtract the total from your current and maximum hitpoints. You recover your normal maximum hitpoints at the end of a long rest. Any spell cast in this manner has its school changed to Hematomancy and does not count as any other school of magic for the purposes of abilities or other magical effects. Additionally, if you cast a spell Hematomantically or any Hematomantic spell you have disadvantage on your Wisdom Saving Throws for the next 24 hours."
+					]
+                },
+                {
+					"type": "entries",
+					"name": "Hematomancer cantrips",
+					"entries": [
+						"At 1st level you know the Hematomancy cantrip as well as the Extract Vitality cantrip. When you cast Extract Vitality you regain half a number of hitpoints equal to half the damage dealt."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"You know two 1st-level spells of your choice from the Hematomancer spell list.",
+						"The Spells Known column of the Hematomancer table shows when you learn more hematomancer spells of your choice from this feature. Each of these spells must be of a level equal to or lower than the spell level section of the Hematomancer class table. ",
+						"Additionally, when you gain a level in this class, you can choose one of the hematomancer spells you know from this feature and replace it with another spell from the hematomancer spell list. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Charisma is your spellcasting ability for your Hematomancer spells; your blending of dark powers into your own body allows your inherent charisma to manifest and power your spells. You use your Charisma whenever a Hematomancer spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Hematomancer spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use an Arcane focus, or a small blade such as a Dagger used to draw blood as a focus for your Hematomancer spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Read Life",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 2,
+			"entries": [
+				"You read the life and abilities of a creature from the traces of its vitality left in its blood. As an Action you may consume a small amount of blood that has been spilled from a creature within the last minute. When you do so you gain some insights into that creatures recent thoughts and worries. You learn its emotional state over the past hour, anything that loomed particularly large in its mind and can trace lingering scent of it through the air to follow where it has travelled over the past day."
+			]
+		},
+		{
+			"name": "Hematomantic Discipline",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 3,
+			"entries": [
+                "At third level, you choose your Hematomantic Archetype from among the following: The Adaptist, skilled with adapting new Hematomantic Investitures and twisting their own body with Hematomantic powers. The Hematurge, skilled in the arcane practices of blood magics. The Arcane Assimilator, who has pilfered the abilities of another arcane practitioner to gain access to the magics that they held."
+            ]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Expanded Bloodlines",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 5,
+			"entries": [
+                "Beginning at 5th level, your ability to incorporate foreign bloodlines into your own expands and can tolerate a wider range of abilities. You gain the following additional options for your Hematomantic Investiture:","Additionally, when you gain a level in this class, you can choose one of the hematomancer spells you know from this feature and replace it with another spell from the hematomancer spell list. ",
+                 {
+                    "type": "options",
+                    "entries": [
+                        {
+							"type": "entries",
+							"name": "Hide",
+							"entries": [
+                            "You have absorbed some of the innate toughness of another creature. When not wearing armour or using a shield your Armor Class becomes 13 + your Dexterity modifier. Choosing this ability a second time increases this bonus to 15 + your Dexterity modifier."							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Elemental Essence",
+							"entries": [
+                                "You have gained some of a creatures connection to one of the Elemental Planes, when you gain this ability select Cold, Fire or Lightning. Your Unarmed Strikes become Natural Weapons which deal 1d6 damage of the chosen type on a hit. When taking the Attack action you may make two attacks with your unarmed strikes unless you already benefit from a feature which already grants you additional attacks such as Extra Attack."
+							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Swiftness",
+							"entries": [
+                                "You have gained some of another creatures swiftness of foot. Your walking speed increases by 20 feet."
+							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Altered Ancestry",
+							"entries": [
+                                "Choose 1 ability of a playable race other than your own, such as an Elf's Trance ability. You gain this ability. This ability cannot be a resistance or immunity to a type of damage or Magic resistance."
+							]
+                        }
+                    ]
+                }
+			]
+		},
+		{
+			"name": "Applied Studies",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 6,
+			"entries": [
+                "Beginning at 6th level you apply your experience with visceral arts has given you a keen insight into the natural behaviours of living creatures. When you attempt to make a Wisdom (Medicine), Wisdom (Survival) or Wisdom (Insight) check to understand or track some aspect of a living creature then you may double your proficiency bonus for the check."
+            ]
+		},
+		{
+			"name": "Hematomantic Discipline Feature",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature granted to you by your Hematomantic Discipline."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+        },
+        {
+			"name": "Hematomantic Discipline Feature",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted to you by your Hematomantic Discipline."
+			]
+		},
+		{
+			"name": "Expanded Bloodlines",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 11,
+			"entries": [
+                "At 11th level you gain even more powerful ways in which to imbibe the life of others. When choosing Hematomantic Investitures you may also choose from the following options:",
+                {
+                    "type": "options",
+                    "entries": [
+                        {
+							"type": "entries",
+							"name": "Magical Knowledge",
+							"entries": [
+                            "You gain the magical knowledge of a powerful caster of magic. Choose a 6th level spell from another classes spell list, once per day you may cast that spell without expending a spell slot. You may choose this ability multiple times but must be at least 13th level to take it a second time and 15th level to take it a third. Choosing this a second time allows you to choose a 7th level spell from another class to cast in the same way, and choosing it a third time allows you to choose an 8th level spell. When casting these spells you use the spellcasting ability of the class whose list the spell belongs to, rather than your Hematomancer spellcasting ability."							]
+                        },
+                        {
+							"type": "entries",
+							"name": "Superior Martial Specialization",
+							"entries": [
+                                "You learn all of a powerful warriors knowledge in their field. You become proficient in Simple and Martial Weapons as well as Light and Medium armor."
+                            ]
+                        },
+                        {
+							"type": "entries",
+							"name": "Life Lore",
+							"entries": [
+                                "You absorb the knowledge and skill of another creature. Choose three skills and one language, you become proficient in the chosen skills and language while you retain this ability. If you choose this a second time you may instead choose to double your proficiency bonus for one of your skills."
+                            ]
+                        }
+                    ]
+                }
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+        },
+        {
+			"name": "Hematomantic Discipline Feature",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 13,
+			"entries": [
+				"At 13th level, you gain a feature granted to you by your Hematomantic Discipline."
+			]
+		},
+		{
+			"name": "Bloodhound",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 15,
+			"entries": [
+                "At 15th level your experience in the Hematomantic arts allows you to track a creature across vast distances. As an Action you may cast the Scrying spell, targeting a creature whose blood you possess or who you have cast a Hemantic spell on within the past week. If the spell succeeds then you also know the exact direction and approximate distance to the creature."
+            ]
+        },
+		{
+			"name": "Ability Score Improvement",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+        },
+        {
+			"name": "Expanded Bloodlines",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 17,
+			"entries": [
+                "At 17th level you gain even more powerful ways in which to imbibe the life of others. When choosing Hematomantic Investitures you may also choose from the following options:",
+                {
+                    "type": "options",
+                    "entries": [
+                        {
+							"type": "entries",
+							"name": "Advanced Magical Knowledge",
+							"entries": [
+                                "You gain the magical knowledge of an immensely powerful caster of magic. Choose a 9th level spell from another classes spell list, once per day you may cast that spell without expending a spell slot."
+                            ]
+                        },
+                        {
+							"type": "entries",
+							"name": "Warrior's Life",
+							"entries": [
+                                "You absorb decades of martial experience at once, giving you the skills to fight with some of the greatest warriors. You become resistant to nonmagical bludgeoning, piercing and slashing damage, and when you take the Attack action you may make three attacks instead of one."
+                            ]
+                        },
+                        {
+							"type": "entries",
+							"name": "Planar Alignment",
+							"entries": [
+                                "You absorb some of an interplanar creatures connection to its home plane. Choose a plane of existence other than the Material Plane. You may cast the Plane Shift spell at will without expending a spell slot, choosing the selected plane as your destination. You also count as a native resident of that plane when affected by a spell such as Banishment"
+                            ]
+                        }
+                    ]
+                }
+			]
+        },
+        {
+			"name": "Hematomantic Discipline Feature",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted to you by your Hematomantic Discipline."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Ruler of Vitality",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"level": 20,
+			"entries": [
+				"At 20th level you have a complete understanding of the flow of life. You gain a number of additional hit dice equal to your Hematomancer level. Additionally when you are reduced to 0 hitpoints, you can expend a hit dice to instead be reduced to 1 hitpoint. Once you have used this ability you cannot do so again "
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Adaptist",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Adaptist",
+			"subclassSource": "HematomancerClass",
+			"level": 3,
+			"header": 1,
+			"entries": [
+                "Adaptists veer their studies towards the practice of incorporating the abilities of others into their own body. They are masters of Hematomantic Investiture.",
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Improved Investiture|Hematomancer|HematomancerClass|Adaptist|HematomancerClass|3"
+				}
+			]
+		},
+		{
+			"name": "Improved Investiture",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Adaptist",
+			"subclassSource": "HematomancerClass",
+			"level": 3,
+			"header": 2,
+			"entries": [
+                "Starting at 3rd level, you gain two additional Hematomantic Investitures of your choice. Additionally when you gain a Hematomancer level you can swap one Hematomantic Investiture for another."
+			]
+		},
+		{
+			"name": "Innate adaptions",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Adaptist",
+			"subclassSource": "HematomancerClass",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, your body has begun to acclimatise to rapid shifts in its physiology. You are unaffected by hot or cold weather and can breathe normally in almost any environment. You are unaffected by spells and magical effects that would cause you to become unable to breathe but can be affected by airborne poisons of a magical or nonmagical nature such as the Cloudkill spell. Additionally you gain advantage on any Saving Throws to avoid an effect which would change your form against your will such as a Polymorph spell, or an effect which would cause you to become Petrified."
+			]
+        },
+        {
+			"name": "Additional adaptations",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Adaptist",
+			"subclassSource": "HematomancerClass",
+			"level": 10,
+			"header": 2,
+			"entries": [
+                "Beginning at 10th level the following abilities are added to the list of possible Hematomantic Investitures for you:",
+                {
+                    "type": "options",
+                    "entries": [
+                        {
+							"type": "entries",
+							"name": "Elemental Form",
+							"entries": [
+                                "Choose one of the following spells: Investiture of Flames, Investiture of Wind, Investiture of Ice, Investiture of Stone. Once per day you may cast that spell without expending a spell slot."
+                            ]
+                        },
+                        {
+							"type": "entries",
+							"name": "Abberant Adaptation",
+							"entries": [
+                                "You gain the ability to speak telepathically, you can do so with any creature that you can see that is within 120 feet of you. A creature does not need to share a language with you to understand and reply in this way but it must have the ability to at least understand a language."
+                            ]
+                        },
+                        {
+							"type": "entries",
+							"name": "Toxic Adaptation",
+							"entries": [
+                                "You gain Immunity to Poison damage. As an Action you can exhale a cloud of poisonous gas which affects a 30 foot cone. Creatures within the area must succeed on a Constitution Saving Throw against your Hematomancer Spell DC or take an ammount of Poison damage equal to your level. Creatures that succeed on the saving throw instead take no damage."
+                            ]
+                        }
+                    ]
+                }
+			]
+        },
+        {
+			"name": "Improved Innate adaptions",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Adaptist",
+			"subclassSource": "HematomancerClass",
+			"level": 13,
+			"header": 2,
+			"entries": [
+                "At 13th level, your body has learned ways to adapt to almost any circumstance it finds itself in. You gain resistance to Fire, Cold and Lightning damage."
+			]
+        },
+        {
+			"name": "Instant Assimilation",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Adaptist",
+			"subclassSource": "HematomancerClass",
+			"level": 18,
+			"header": 2,
+			"entries": [
+                "Starting at 18th level, even without the proper preparations you are able to imbibe some of another creatures life. You may cast the True Polymorph spell, targetting yourself to transform into a creature which you have just reduced to 0 hitpoints (Provided that the creature fits the criteria for a True Polymorph spell). Once you have used this ability you cannot use it again until you complete a Long Rest."
+			]
+        },
+        {
+			"name": "Assimilator",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Assimilator",
+			"subclassSource": "HematomancerClass",
+			"level": 3,
+			"header": 1,
+			"entries": [
+                "The Assimilator has assimilated enough magical blood that they can call upon more commonplace magical abilities, mimicking those of other spellcasters.",
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Assimilated Arcana|Hematomancer|HematomancerClass|Assimilator|HematomancerClass|3"
+				}
+			]
+		},
+		{
+			"name": "Assimilated Arcana",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Assimilator",
+			"subclassSource": "HematomancerClass",
+			"level": 3,
+			"header": 2,
+			"entries": [
+                "Starting at 3rd level, choose another spellcasting class: Bard, Cleric, Druid, Sorceror, Warlock or Wizard. When you learn a new spell you may choose one of the spells from that classes spell list instead of a Hematomancer spell and can cast those spells as though they were Hematomancer spells. At 3rd level you gain a 1st level and 2nd level spell slot, gaining a new spell slot every time your Hematomancer spell level goes up. For each spell slot you gain in this way you learn an additional spell which does not count against your number of spells known. You also gain the ability to cast Hematomancer spells as rituals, provided that you have learned the spell."
+			]
+		},
+		{
+			"name": "Enhanced Arcana",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Assimilator",
+			"subclassSource": "HematomancerClass",
+			"level": 7,
+			"header": 2,
+			"entries": [
+                "At 7th level, you have expanded your magical ties. You learn 2 cantrips of your choice from your chosen classes spell list and you gain an additional 1st, 2nd and 3rd level spell slots."
+            ]
+        },
+        {
+			"name": "Magical Enhancements",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Assimilator",
+			"subclassSource": "HematomancerClass",
+			"level": 10,
+			"header": 2,
+			"entries": [
+                "At 10th level you have learned to improve upon the magic that you have stolen, you gain advantage on all Constitution saving throws made to maintain your concentration on a spell and you double the range of any spell you cast that requires a ranged spell attack."
+			]
+        },
+        {
+			"name": "Advanced Teachings",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Assimilator",
+			"subclassSource": "HematomancerClass",
+			"level": 13,
+			"header": 2,
+			"entries": [
+                "At 13th level, choose a 6th and 7th level spell from your classes spell list. You may cast those spells without expending a spell slot, however once you have cast them in this way you may not do so again until you complete a Long Rest."
+            ]
+        },
+        {
+			"name": "Prodigal Caster",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Assimilator",
+			"subclassSource": "HematomancerClass",
+			"level": 18,
+			"header": 2,
+			"entries": [
+                "Starting at 18th level, Choose an 8th and 9th level spell from your classes spell list. You may cast those spells without expending a spell slot, however once you have cast them in this way you may not do so again until you complete a Long Rest."
+            ]
+        },
+        {
+			"name": "Hematurge",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Hematurge",
+			"subclassSource": "HematomancerClass",
+			"level": 3,
+			"header": 1,
+			"entries": [
+                "The Hematurge dives directly to the deepest recesses of blood magic, they care not for traditional magics but seek instead to find new and more secretive arts.",
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Enhanced Hematomantic casting|Hematomancer|HematomancerClass|Hematurge|HematomancerClass|3"
+				}
+			]
+		},
+		{
+			"name": "Enhanced Hematomantic casting",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Hematurge",
+			"subclassSource": "HematomancerClass",
+			"level": 3,
+			"header": 2,
+			"entries": [
+                "Starting at 3rd level, when you cast a spell Hematomantically you take only half of the damage rolled from your hit die and any spell you cast is treated as being cast one level higher. (This does not allow you to cast higher-levelled spells than you would normally be able to cast, for instance by spending three hit die you could not cast the fourth level spell Wall of Fire, however you could cast the third level spell Fireball as though you had cast it at fourth level) Additionally when you cast the Extract Vitality cantrip you may add your spellcasting ability modifier to the damage roll."
+            ]
+		},
+		{
+			"name": "Forced Vitality",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Hematurge",
+			"subclassSource": "HematomancerClass",
+			"level": 7,
+			"header": 2,
+			"entries": [
+                "At 7th level, when you take a long rest you recover all of your hit die rather than only half."
+            ]
+        },
+        {
+			"name": "Blood Servant",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Hematurge",
+			"subclassSource": "HematomancerClass",
+			"level": 10,
+			"header": 2,
+			"entries": [
+                "At 10th level you learn the Blood Servant spell and can cast it Hematomantically, this does not count against your number of spells known. This spell cannot be learned by any other means."
+            ]
+        },
+        {
+			"name": "Bloodline Supremacy",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Hematurge",
+			"subclassSource": "HematomancerClass",
+			"level": 13,
+			"header": 2,
+			"entries": [
+                "At 13th level, you learn the Bloodline Supremacy spell and can cast it Hematomantically, this does not count against your number of spells known. This spell cannot be learned by any other means."
+            ]
+        },
+        {
+			"name": "Harvest Life",
+			"source": "HematomancerClass",
+			"className": "Hematomancer",
+			"classSource": "HematomancerClass",
+			"subclassShortName": "Hematurge",
+			"subclassSource": "HematomancerClass",
+			"level": 18,
+			"header": 2,
+			"entries": [
+                "Starting at 18th level, you learn the Life Harvest spell and can cast it Hematomantically, this does not count against your number of spells known. This spell cannot be learned by any other means."
+            ]
+		}
+	]
+}
